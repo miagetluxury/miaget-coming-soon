@@ -34,6 +34,7 @@ body {
 
 .title h2{
     position: absolute;
+    white-space: nowrap;
     top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
