@@ -69,3 +69,85 @@ img {
     max-width: 100%;
     width: auto\9; /* ie8 */
 }
+
+@media (max-width: 600px) {
+    .pic {
+        display: none;
+    }
+    .topleft {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .topleft img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .title{
+        top: 30%;
+        font-size: 20px;
+        letter-spacing: 15px;
+    }
+    
+    .title h2{
+        position: absolute;
+        white-space: nowrap;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: 'levaus';
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 20px;
+    }
+    .middle {
+        top: 60%;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-height: 500px) {
+    .pic {
+        display: none;
+    }
+    .topleft {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .topleft img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .title{
+        top: 30%;
+        font-size: 20px;
+        letter-spacing: 15px;
+    }
+    
+    .title h2{
+        position: absolute;
+        white-space: nowrap;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: 'levaus';
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 20px;
+    }
+    .middle {
+        top: 60%;
+        font-size: 10px;
+    }
+
+}
